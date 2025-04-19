@@ -1,0 +1,45 @@
+./dist contains .tar.gz to be uploaded onto MyNodeBTC Marketplace Community App.
+
+NO WARRANTIES OF ANY KIND!
+
+TAKE, KEEP AND VERYFY BACKUP DATA RESTORABILITY BY YOURSELF!
+
+DONE / TODO
+-----------
+MY 1ST APP
+
+* Update your app icon at appname.png
+Update your app info file at appname.json
+*author
+*website
+*category
+*short_description
+*description
+*latest_version
+*targz_download_url
+*app_page_content
+*Update your service file at appname.service
+*Update your install script at script/install_appname.service
+*Add your own screenshots under the screenshots folder
+
+https://github.com/mynodebtc/mynode_sdk?tab=readme-ov-file
+
+ + Review and update the app data file: albyhub.json
+ + Update the install script: scripts/install_albyhub.sh
+ + Update the service file: albyhub.service
+ + Update the app icon: albyhub.png
+ + Add app screenshots in the screenshots folder
+ - Review other files for necessary updates
+   + /usr/share/mynode/mynode_app_versions.sh
+
+https://github.com/mynodebtc/mynode_sdk?tab=readme-ov-file#customizing-your-application
+
+# sudo docker ps -a
+# sudo docker stop c398b55de08c
+# sudo docker rm c398b55de08c
+# sudo docker image list
+# sudo docker rmi <REPO/TAG>
+
+# ? NEED UPDATE /usr/bin/mynode_initialize_users.sh
+# ? NEED TO PERMANENT /root/.local/share/albyhub
+# IMPLEMENT backup (from mynode-phoenixd)
